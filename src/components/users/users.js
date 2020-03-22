@@ -1,16 +1,21 @@
 import React from 'react'
 import UserItem from './useritem';
+import Spinner from '../layout/spinner';
+import PropTypes from 'prop-types'
 
-const Users = (props) => {
-    return (
-        <div style={userStyle}>
-            {props.users.map(user =>
-                <UserItem key={user.id} user={user} />
-            )}
-        </div>
-    )
+const Users = ({ users, loading }) => {
+
+    return loading ? <Spinner /> : <div style={userStyle}>
+        {users.map(user =>
+            <UserItem key={user.id} user={user} />
+        )}
+    </div>;
 }
 
+Users.propTypes = {
+    users: PropTypes.array.isRequired,
+    loading: PropTypes.bool.isRequired
+}
 
 const userStyle = {
     display: 'grid',
