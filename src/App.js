@@ -22,7 +22,7 @@ class App extends React.Component {
       (`https://api.github.com/search/users?q=${this.state.defaultUser}`);
     this.setState({ loading: false, users: result.data.items })
   };
-  getSingleRepos = async (username) => {
+  getUserRepos = async (username) => {
     this.setState({ loading: true })
     let result = await axios.get(`https://api.github.com/users/${username}/repos?per_page=5&sort=created:asc`);
     this.setState({ repos: result.data, loading: false });
@@ -76,6 +76,7 @@ class App extends React.Component {
                   user={this.state.user}
                   loading={this.state.loading}
                   getUserRepos={this.getUserRepos}
+                  repos={this.state.repos}
                 />
               )}></Route>
             </Switch>
