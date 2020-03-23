@@ -33,6 +33,7 @@ class User extends React.Component {
             hireable
         } = this.props.user;
 
+
         return this.props.loading ? <Spinner /> : <Fragment>
             <Link to='/' className='btn btn-light'>
                 Back To Search
