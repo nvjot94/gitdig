@@ -61,7 +61,8 @@ class App extends React.Component {
 
                 <Fragment>
                   <Alert alert={this.state.alert} />
-                  <Search searchUser={this.searchUser} clearScreen={this.clearScreen}
+                  <Search searchUser={this.searchUser}
+                    clearScreen={this.clearScreen}
                     showClearButton={this.state.users.length > 0 ? true : false}
                     showAlert={this.showAlert} />
                   <Users loading={this.state.loading} users={this.state.users} />
