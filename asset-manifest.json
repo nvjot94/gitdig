@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/gitdig/static/css/main.b4f77495.chunk.css",
-    "main.js": "/gitdig/static/js/main.48598648.chunk.js",
-    "main.js.map": "/gitdig/static/js/main.48598648.chunk.js.map",
+    "main.js": "/gitdig/static/js/main.779c08c7.chunk.js",
+    "main.js.map": "/gitdig/static/js/main.779c08c7.chunk.js.map",
     "runtime-main.js": "/gitdig/static/js/runtime-main.f94c438e.js",
     "runtime-main.js.map": "/gitdig/static/js/runtime-main.f94c438e.js.map",
     "static/js/2.1d9750b3.chunk.js": "/gitdig/static/js/2.1d9750b3.chunk.js",
     "static/js/2.1d9750b3.chunk.js.map": "/gitdig/static/js/2.1d9750b3.chunk.js.map",
     "index.html": "/gitdig/index.html",
-    "precache-manifest.c85192c600f95151a6108f2c7d0cae1b.js": "/gitdig/precache-manifest.c85192c600f95151a6108f2c7d0cae1b.js",
+    "precache-manifest.b6ee1b2f5b6acf06394e0b2517555ed2.js": "/gitdig/precache-manifest.b6ee1b2f5b6acf06394e0b2517555ed2.js",
     "service-worker.js": "/gitdig/service-worker.js",
     "static/css/main.b4f77495.chunk.css.map": "/gitdig/static/css/main.b4f77495.chunk.css.map",
     "static/js/2.1d9750b3.chunk.js.LICENSE.txt": "/gitdig/static/js/2.1d9750b3.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f94c438e.js",
     "static/js/2.1d9750b3.chunk.js",
     "static/css/main.b4f77495.chunk.css",
-    "static/js/main.48598648.chunk.js"
+    "static/js/main.779c08c7.chunk.js"
   ]
 }
