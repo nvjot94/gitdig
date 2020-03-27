@@ -15,9 +15,9 @@ const App = () => {
           <Navbar title="Github Finder" icon="fab fa-github" />
           <div className="container">
             <Switch>
-              <Route exact path='/gitdig' component={Home} ></Route>
-              <Route exact path='/gitdig/about' component={About}></Route>
-              <Route exact path='/gitdig/user/:login' render={(props) => (
+              <Route exact path='/' component={Home} ></Route>
+              <Route exact path='/about' component={About}></Route>
+              <Route exact path='/user/:login' render={(props) => (
                 <User {...props}
                 />
               )}></Route>

@@ -31,7 +31,7 @@ const User = ({ match }) => {
 
 
     return loading ? <Spinner /> : <Fragment>
-        <Link to='/gitdig' className='btn btn-light'>
+        <Link to='/' className='btn btn-light'>
             Back To Search
         </Link>
         Hireable:{' '}
