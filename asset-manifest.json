@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gitdig/static/css/main.b4f77495.chunk.css",
+    "main.js": "/gitdig/static/js/main.e2fdcf41.chunk.js",
+    "main.js.map": "/gitdig/static/js/main.e2fdcf41.chunk.js.map",
+    "runtime-main.js": "/gitdig/static/js/runtime-main.f94c438e.js",
+    "runtime-main.js.map": "/gitdig/static/js/runtime-main.f94c438e.js.map",
+    "static/js/2.1d9750b3.chunk.js": "/gitdig/static/js/2.1d9750b3.chunk.js",
+    "static/js/2.1d9750b3.chunk.js.map": "/gitdig/static/js/2.1d9750b3.chunk.js.map",
+    "index.html": "/gitdig/index.html",
+    "precache-manifest.0712c05503d9c0e04691338db75b3997.js": "/gitdig/precache-manifest.0712c05503d9c0e04691338db75b3997.js",
+    "service-worker.js": "/gitdig/service-worker.js",
+    "static/css/main.b4f77495.chunk.css.map": "/gitdig/static/css/main.b4f77495.chunk.css.map",
+    "static/js/2.1d9750b3.chunk.js.LICENSE.txt": "/gitdig/static/js/2.1d9750b3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f94c438e.js",
+    "static/js/2.1d9750b3.chunk.js",
+    "static/css/main.b4f77495.chunk.css",
+    "static/js/main.e2fdcf41.chunk.js"
+  ]
+}
