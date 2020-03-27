@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useEffect, useContext } from 'react'
 import UserItem from './useritem';
 import Spinner from '../layout/spinner';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+import GithubContext from '../../context/context';
 
-const Users = ({ users, loading }) => {
+const Users = () => {
+    const githubContext = useContext(GithubContext);
+    useEffect(() => {
+        githubContext.searchUser('nvjot94');
+        //eslint-disable-next-line
+    }, []);
 
+    const { loading, users } = githubContext;
     return loading ? <Spinner /> : <div style={userStyle}>
         {users.map(user =>
             <UserItem key={user.id} user={user} />
